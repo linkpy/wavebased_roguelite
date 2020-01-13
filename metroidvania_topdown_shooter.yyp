@@ -122,7 +122,7 @@
             "Key": "1e05afd7-ecc8-4a26-990a-dc01e02f6470",
             "Value": {
                 "id": "87545754-d547-431c-8ee4-d617eba6c8bf",
-                "resourcePath": "objects\\obj_single_door\\obj_single_door.yy",
+                "resourcePath": "objects\\obj_door\\obj_door.yy",
                 "resourceType": "GMObject"
             }
         },

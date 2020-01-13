@@ -12,6 +12,6 @@ if( bought and open_time > 0 )
 	var dx = lengthdir_x(_displ, image_angle);
 	var dy = lengthdir_y(_displ, image_angle);
 	
-	x = initial_x + dx * _displ;
-	y = initial_y + dy * _displ;
+	x = initial_x + dx;
+	y = initial_y + dy;
 }
