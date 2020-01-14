@@ -1,5 +1,8 @@
 // @description
 
+if( global.paused )
+	return;
+
 player_near = distance_to_object(obj_player) < 64;
 
 

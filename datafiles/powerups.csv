@@ -1,0 +1,8 @@
+name,desc,sprite,kind,rarity,stackable,health f,health o,heal f,heal o,invul f,invul o,mv spd f,mv spd o,fire rate f,fire rate o,fire spread f,fire spread o,damage f,damage o,bullet f,bullet o
+Minigun,MINIGUNZ,spr_powerup_minigun,weapon,rare,false,1,0,1,0,1,0,0.7,0,10,0,2,0,0.5,0,1,0
+Overclocking,-,spr_powerup_overclocking,powerup,garbage,true,1,0,1,0,1,0,1,0,1,0.5,1,0,1,0,1,0
+Super Overclocking,-,spr_powerup_super_overclocking,powerup,uncommon,true,1,0,1,0,1,0,1,0,1.05,1,1,0,1,0,1,0
+Splitter,-,spr_powerup_splitter,powerup,uncommon,true,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,1
+Super Splitter,-,spr_powerup_super_splitter,powerup,rare,true,1,0,1,0,1,0,1,0,1,0,1.1,2,1,0,1.2,2
+Heavy Bullet,-,spr_powerup_heavy_bullet,powerup,common,true,1,0,1,0,1,0,1,0,1,0,1,0,1,3,1,0
+Doom Bullet,-,spr_powerup_doom_bullet,powerup,unique,true,1,0,1,0,1,0,1,0,1,0,1,0,1.25,2,1,0

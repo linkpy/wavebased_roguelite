@@ -11,7 +11,7 @@ draw_set_valign(fa_center);
 draw_set_font(fnt_ingame);
 draw_text_color(
 	x, y, 
-	string(round(amount)),
+	amount,
 	color, color, color, color,
 	alpha
 );

@@ -1,0 +1,31 @@
+{
+    "id": "ce4a0cef-2bf2-457e-b2b4-bd599086c17e",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "ce4a0cef-2bf2-457e-b2b4-bd599086c17e",
+    "children": [
+        "f4d5f467-1eb3-4269-938a-71307a268910",
+        "af21dd85-92b9-431b-9f25-4c998f39f547",
+        "091f2cbc-a334-42bc-968a-b4c69e6840d3",
+        "8dd73893-0192-48b9-92b5-991d958a66a6",
+        "59532a97-45ec-45e4-b0e9-f7165da29bbb",
+        "03483ea9-7e70-4dfd-b9a3-e0fb9d22221e",
+        "22fa8f48-bce7-452a-ae7a-0888272cf210",
+        "2935d7b3-8ffc-4055-b1e3-36c9bdbff2bc",
+        "ff261afa-6042-400e-9ca4-0d6cd353654f",
+        "8709b991-0354-431a-bcd1-97639cb48107",
+        "0842de49-9f1d-4593-86a0-2c8ad3455a49",
+        "0d64b101-3e4f-4894-bc57-9c4a33bc2839",
+        "1af4ea82-7a0b-4072-9fd4-53bf9a69c5b2",
+        "15a14484-822e-4e56-9dab-1f8e974057d1",
+        "fa76b85b-bba3-4e5c-9b21-3f9c29a1d8dd",
+        "a83fe7e4-affc-47e8-bc38-2753a75c79ca",
+        "84266bcf-3649-489d-9c82-ed5533a581c4",
+        "1c32a961-2e4d-4579-8e9b-fba2a5ce7a3e",
+        "8539fe71-865d-40f7-8273-d413cd87e56b"
+    ],
+    "filterType": "GMScript",
+    "folderName": "powerups",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

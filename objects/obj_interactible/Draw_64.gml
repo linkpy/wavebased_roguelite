@@ -1,5 +1,8 @@
 // @description
 
+if( global.paused )
+	return;
+
 if( not player_near or bought )
 	return;
 

@@ -1,5 +1,8 @@
 // @description
 
+if( global.paused )
+	return;
+
 // trail
 ds_list_add(trail_x, x);
 ds_list_add(trail_y, y);

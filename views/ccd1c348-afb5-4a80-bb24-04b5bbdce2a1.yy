@@ -10,7 +10,8 @@
         "f135b166-28df-49a8-a0b1-ea089eea7b4e",
         "68c76eb2-fcbc-41cb-8522-63f4e7580663",
         "0b1530b1-59e2-4b1a-bd6e-c29f2b9dec59",
-        "7743179c-e18d-4b9e-aeae-74e0704780b7"
+        "7743179c-e18d-4b9e-aeae-74e0704780b7",
+        "dcbd02fe-bae8-42f9-8327-da5696c25ac3"
     ],
     "filterType": "GMScript",
     "folderName": "stats",

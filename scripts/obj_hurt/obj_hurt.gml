@@ -8,7 +8,7 @@ if( not argument0.can_be_hurt )
 
 argument0.health_points -= argument1
 
-spawn_damage_indicator(argument0.x, argument0.y, argument1, argument2);
+spawn_damage_indicator(argument0.x, argument0.y, string(round(argument1)), argument2);
 
 if( argument0.health_points <= 0 )
 {

@@ -36,18 +36,21 @@ if( argument0 == ev_step and argument1 == ev_step_normal ) {
 		fire_time = 1 / stats_fire_rate(id);
 	
 		var fire_spread = stats_fire_spread(id);
-		var spread = random_range(-fire_spread, fire_spread);
-	
-		var bullet = instance_create_layer(
-			x + lengthdir_x(16, image_angle),
-			y + lengthdir_y(16, image_angle),
-			"instances",
-			obj_player_bullet
-		);
+		var amount = stats_bullet_count(id);
 		
-		bullet.damage_amount = stats_damages(id);
-		bullet.direction_x = lengthdir_x(1, image_angle+spread);
-		bullet.direction_y = lengthdir_y(1, image_angle+spread);
+		for( var i = 0; i < amount; i++ ) {
+			var spread = random_range(-fire_spread, fire_spread);
+			var bullet = instance_create_layer(
+				x + lengthdir_x(16, image_angle),
+				y + lengthdir_y(16, image_angle),
+				"instances",
+				obj_player_bullet
+			);
+		
+			bullet.damage_amount = stats_damages(id);
+			bullet.direction_x = lengthdir_x(1, image_angle+spread);
+			bullet.direction_y = lengthdir_y(1, image_angle+spread);
+		}
 	
 		obj_camera.recoil_amount = fire_recoil;
 	

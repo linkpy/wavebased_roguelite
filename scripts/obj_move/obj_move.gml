@@ -10,9 +10,6 @@ var mspeed = argument2;
 var dx = vx * mspeed * delta_time / 1000000.0;
 var dy = vy * mspeed * delta_time / 1000000.0;
 
-var _dx = dx;
-var _dy = dy;
-
 var collided = false;
 
 

@@ -1,5 +1,6 @@
 /// @description get max health
 /// @param o
 
+gml_pragma("forceinline");
 var o = argument0;
-return o.max_health_base * (1 + o.max_health_factor) + o.max_health_offset;
+return o.max_health_base * o.max_health_factor + o.max_health_offset;
