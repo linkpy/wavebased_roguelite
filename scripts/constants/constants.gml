@@ -1,6 +1,7 @@
 
 gml_pragma("global", "constants()");
 
+
 /////////////////////////////////////////////////////////////////////
 /// player default input
 #macro PLAYER_DEFAULT_KEY_LEFT ord("Q")
