@@ -17,6 +17,9 @@ gml_pragma("global", "constants()");
 #macro PLAYER_BASE_FIRE_RATE 3
 #macro PLAYER_BASE_FIRE_SPREAD 3
 #macro PLAYER_BASE_DAMAGES 8
+#macro PLAYER_BASE_MAX_AMMO 60
+#macro PLAYER_BASE_MAGAZINE_SIZE 6
+#macro PLAYER_BASE_RELOAD_TIME 1.5
 
 /// other
 #macro PLAYER_FIRE_RECOIL_AMOUNT 8
@@ -36,9 +39,12 @@ enum PowerupIndexes {
 	FireSpreadFactor, FireSpreadOffset,
 	DamagesFactor, DamagesOffset,
 	BulletCountFactor, BulletCountOffset,
+	MaxAmmoFactor, MaxAmmoOffset,
+	MagazineSizeFactor, MagazineSizeOffset,
+	ReloadTimeFactor, ReloadTimeOffset,
 	
 	StatsFirst = PowerupIndexes.HealthFactor,
-	StatsLast = PowerupIndexes.BulletCountOffset,
+	StatsLast = PowerupIndexes.ReloadTimeOffset,
 	Count = PowerupIndexes.StatsLast+1
 }
 

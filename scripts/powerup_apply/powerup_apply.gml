@@ -23,5 +23,11 @@ for(var i = PowerupIndexes.StatsFirst; i <= PowerupIndexes.StatsLast; i++ )
 		case PowerupIndexes.DamagesOffset:				argument0.damages_offset += v; break;
 		case PowerupIndexes.BulletCountFactor:			argument0.bullet_count_factor *= v; break;
 		case PowerupIndexes.BulletCountOffset:			argument0.bullet_count_offset += v; break;
+		case PowerupIndexes.MaxAmmoFactor:				argument0.max_ammo_factor *= v; break;
+		case PowerupIndexes.MaxAmmoOffset:				argument0.max_ammo_offset += v; break;
+		case PowerupIndexes.MagazineSizeFactor:			argument0.magazine_size_factor *= v; break;
+		case PowerupIndexes.MagazineSizeOffset:			argument0.magazine_size_offset += v; break;
+		case PowerupIndexes.ReloadTimeFactor:			argument0.reload_time_factor *= v; break;
+		case PowerupIndexes.ReloadTimeOffset:			argument0.reload_time_offset += v; break;
 	}
 }

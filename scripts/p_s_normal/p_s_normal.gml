@@ -31,9 +31,23 @@ if( argument0 == ev_step and argument1 == ev_step_normal ) {
 	if( fire_time > 0 )
 		fire_time = max(fire_time - delta_time / 1000000.0, 0.0);
 
-	if( fire_time == 0 and mouse_check_button(mb_left) )
+	if( reload_time > 0 ) {
+		reload_time = max(reload_time - delta_time / 1000000.0, 0.0);
+		
+		if( reload_time == 0 ) {
+			var amnt = min(stats_magazine_size(id), ammo);
+			magazine = amnt;
+			ammo -= amnt;
+		}
+	}
+
+	if( fire_time == 0 and reload_time == 0 and magazine > 0 and mouse_check_button(mb_left))
 	{
 		fire_time = 1 / stats_fire_rate(id);
+		magazine -= 1;
+		
+		if( magazine == 0 ) 
+			reload_time = stats_reload_time(id);	
 	
 		var fire_spread = stats_fire_spread(id);
 		var amount = stats_bullet_count(id);

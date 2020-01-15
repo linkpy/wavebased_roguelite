@@ -37,5 +37,10 @@ movement_speed_base = PLAYER_BASE_MOVEMENT_SPEED;
 fire_rate_base = PLAYER_BASE_FIRE_RATE;
 fire_spread_base = PLAYER_BASE_FIRE_SPREAD;
 damages_base = PLAYER_BASE_DAMAGES;
+max_ammo_base = PLAYER_BASE_MAX_AMMO;
+magazine_size_base = PLAYER_BASE_MAGAZINE_SIZE;
+reload_time_base = PLAYER_BASE_RELOAD_TIME;
 
 health_points = stats_max_health(id);
+ammo = stats_max_ammo(id);
+magazine = stats_magazine_size(id);

@@ -4,6 +4,9 @@ event_inherited();
 
 
 health_points = 1;
+ammo = 1;
+magazine = 1;
+reload_time = 0;
 
 is_player = false;
 can_be_hurt = true;
@@ -40,3 +43,15 @@ damages_offset = 0;
 bullet_count_base = 1;
 bullet_count_factor = 1;
 bullet_count_offset = 0;
+
+max_ammo_base = 1;
+max_ammo_factor = 1;
+max_ammo_offset = 0;
+
+magazine_size_base = 1;
+magazine_size_factor = 1;
+magazine_size_offset = 0;
+
+reload_time_base = 1;
+reload_time_factor = 1;
+reload_time_offset = 0;
